@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Muhamad Fadli Fadilah - E-CV Digital Sistem Informasi</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Font Inter dari Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <header class="navbar">
+      <div class="nav-container">
+        <a href="#home" class="brand">
+          Muhamad Fadli <span class="badge-si">SI</span>
+        </a>
+        <button
+          class="nav-toggle"
+          id="navToggle"
+          aria-label="Toggle navigation"
+        >
+          &#9776;
+        </button>
+        <nav class="nav-menu" id="navMenu">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#experience">Experience</a>
+          <a href="#education">Education</a>
+          <a href="#contact">Contact</a>
+          <a
+            href="resume.pdf"
+            download="Resume_Muhamad_Fadli_Fadilah.pdf"
+            class="btn-pdf"
+            >Unduh File CV (.pdf)</a
+          >
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <!-- SECTION 1: HERO / HOME -->
+      <section id="home" class="hero">
+        <div class="avatar-container">
+          <img
+            src="foto.jpeg"
+            alt="Foto Muhamad Fadli Fadilah"
+            class="profile-photo"
+          />
+        </div>
+
+        <div class="hero-content">
+          <div class="status-badges">
+            <span class="badge badge-verified">
+              &#10004; Mahasiswa Aktif Semester 5 UBSI Sukabumi[cite: 1, 2]
+            </span>
+            <span class="badge badge-available">
+              &bull; IPK 3.90[cite: 1, 2]
+            </span>
+          </div>
+          <h1 id="hero-name">Muhamad Fadli Fadilah</h1>
+          <p class="role" id="hero-role">
+            Program Studi Sistem Informasi | Universitas Bina Sarana Informatika
+          </p>
+          <p class="tagline" id="hero-tagline">
+            "Terbiasa bekerja secara rapi, teliti, dan bertanggung jawab dalam
+            pengelolaan data dan administrasi."
+          </p>
+          <div class="hero-cta">
+            <a href="#experience" class="btn btn-primary">Lihat Pengalaman</a>
+            <a
+              href="resume.pdf"
+              download="Resume_Muhamad_Fadli_Fadilah.pdf"
+              class="btn btn-secondary"
+              >Unduh File CV (.pdf)</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 2: ABOUT -->
+      <section id="about" class="section">
+        <h2>Profil Singkat</h2>
+        <p id="about-bio" class="about-text">
+          Mahasiswa aktif semester 5 program studi sistem informasi universitas
+          bina sarana informatika kampus sukabumi. Memiliki pengalaman
+          organisasi di himpunan mahasiswa sistem informasi (HIMASI), termasuk
+          sebagai kepala departemen komunikasi dan informasi. Terbiasa bekerja
+          secara rapi, teliti, dan bertanggung jawab dalam pengelolaan data dan
+          administrasi.[cite: 1, 2]
+        </p>
+      </section>
+
+      <!-- SECTION 3: SKILLS -->
+      <section id="skills" class="section">
+        <h2>Keahlian</h2>
+        <div class="skills-grid" id="skills-container"></div>
+      </section>
+
+      <!-- SECTION 4: EXPERIENCE & KEPANITIAAN -->
+      <section id="experience" class="section">
+        <h2>Pengalaman Organisasi & Kepanitiaan</h2>
+        <div class="timeline" id="experience-container"></div>
+      </section>
+
+      <!-- SECTION 5: EDUCATION & CERTIFICATIONS -->
+      <section id="education" class="section">
+        <h2>Pendidikan & Sertifikasi</h2>
+        <div class="edu-grid">
+          <div class="edu-box">
+            <h3>Pendidikan Formal</h3>
+            <div id="education-container"></div>
+          </div>
+          <div class="edu-box">
+            <h3>Sertifikasi Kompetensi</h3>
+            <div id="certifications-container"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 6: CONTACT -->
+      <section id="contact" class="section text-center">
+        <h2>Informasi Kontak</h2>
+        <p class="subtitle">
+          Jl. Nagrak Taman Bahagia, Kota Sukabumi[cite: 1, 2]
+        </p>
+        <div class="contact-links" id="contact-container"></div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>&copy; 2026 Muhamad Fadli Fadilah - E-CV Digital</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
